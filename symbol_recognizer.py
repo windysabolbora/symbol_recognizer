@@ -42,7 +42,7 @@ def app():
         clf = BernoulliNB()
 
     if st.button('Start'):
-        df = pd.read_csv('symbols_dataset.csv', header=None)
+        df = pd.read_csv('symbols.csv', header=None)
         # st.dataframe(df, use_container_width=True)  
         
         # display the dataset
